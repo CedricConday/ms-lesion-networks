@@ -3,7 +3,7 @@
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 done=0; failed=(); waiting=()
-running=$(docker ps --filter ancestor=jqmcginnis/lst-ai:v1.2.0 -q | wc -l)
+running=$(docker ps --filter ancestor=jqmcginnis/lst-ai:v2.0.0rc1-cpu -q | wc -l)
 for s in $(tail -n +2 sourcedata/ds007908/participants.tsv | cut -f1); do
   if [ -s "derivatives/lst-ai/$s/space-flair_seg-lst.nii.gz" ]; then
     done=$((done+1))

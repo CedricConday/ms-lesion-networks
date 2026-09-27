@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Re-queue every participant without a finished LST-AI segmentation, 4 at a
-# time, detached from the terminal so it survives logout. Refuses to start
+# Re-queue every participant without a finished LST-AI segmentation, one at a
+# at a time (four threads each would oversubscribe the four cores), detached from the terminal so it survives logout. Refuses to start
 # while LST-AI containers are still running.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
-if [ -n "$(docker ps --filter ancestor=jqmcginnis/lst-ai:v1.2.0 -q)" ]; then
+if [ -n "$(docker ps --filter ancestor=jqmcginnis/lst-ai:v2.0.0rc1-cpu -q)" ]; then
   echo "LST-AI is still running; check scripts/status.sh and try again later." >&2
   exit 1
 fi
@@ -16,5 +16,5 @@ for s in $(tail -n +2 sourcedata/ds007908/participants.tsv | cut -f1); do
 done
 n=$(wc -l < work/queue.txt)
 [ "$n" -eq 0 ] && { echo "all 28 finished"; exit 0; }
-nohup sh -c 'xargs -P 4 -n 1 ./scripts/02_run_lst_ai.sh < work/queue.txt >> work/logs/batch.log 2>&1' >/dev/null 2>&1 &
-echo "queued $n participant(s), 4 at a time; progress: scripts/status.sh"
+nohup sh -c 'xargs -P 1 -n 1 ./scripts/02_run_lst_ai.sh < work/queue.txt >> work/logs/batch.log 2>&1' >/dev/null 2>&1 &
+echo "queued $n participant(s), one at a time, four threads; progress: scripts/status.sh"

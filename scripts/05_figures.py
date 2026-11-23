@@ -2,8 +2,8 @@
 
 1. ``figures/load_<theme>.svg``: per-participant total in-tract lesion load, by group;
 2. ``figures/heatmap_<theme>.svg``: lesioned share of every tract x participant;
-3. ``figures/network_<theme>.svg``: Brodmann-area pairs whose carrying tracts are >= 1 %
-   lesioned in at least half of the patients (from ``derivatives/network_pairs.tsv``).
+3. ``figures/network_<theme>.svg``: Brodmann-area pairs hit (weight-averaged disconnection
+   >= 1 %) in at least half of the patients (from ``derivatives/network_pairs.tsv``).
 """
 
 from pathlib import Path
@@ -28,6 +28,11 @@ THEMES = {
                  grid="#2c2c2a", patient="#3987e5", control="#d95926",
                  ramp=["#1a1a19", "#104281", "#1c5cab", "#3987e5", "#86b6ef", "#cde2fb"]),
 }
+
+
+def display(tract):
+    """Tract label for figures; the atlas file name misspells the parolfactory cingulum."""
+    return tract.replace("Rarolfactory", "Parolfactory").replace("_", " ")
 
 
 def style(t):
@@ -62,8 +67,9 @@ def load_figure(overlap, t, out):
     ax.set_xticks([])
     ax.spines["bottom"].set_visible(False)
     ax.grid(axis="y", color=t["grid"], linewidth=0.6, zorder=0)
-    ax.set_ylabel("Lesion inside tracts, probability-weighted ml\n(sum over 64 tracts, symlog scale)")
-    ax.set_title("In-tract lesion load per participant", loc="left", fontsize=10, color=t["ink"])
+    ax.set_ylabel("Summed tract overlap, probability-weighted ml\n"
+                  "(sum over 64 overlapping tracts, not a lesion volume; symlog)")
+    ax.set_title("Summed lesion-tract overlap per participant", loc="left", fontsize=10, color=t["ink"])
     fig.subplots_adjust(left=0.2, bottom=0.16, top=0.92, right=0.97)
     fig.savefig(out, metadata={"Date": None})
     plt.close(fig)
@@ -83,7 +89,7 @@ def heatmap_figure(overlap, t, out):
                    norm=PowerNorm(gamma=0.4, vmin=0, vmax=max(5.0, float(wide.to_numpy().max()))),
                    interpolation="nearest")
     ax.set_yticks(range(len(tracts)))
-    ax.set_yticklabels([s.replace("_", " ") for s in tracts], fontsize=6.5)
+    ax.set_yticklabels([display(s) for s in tracts], fontsize=6.5)
     ax.set_xticks(range(len(order)))
     ax.set_xticklabels([s.removeprefix("sub-") for s in order], rotation=90, fontsize=6.5)
     for lab, s in zip(ax.get_xticklabels(), order, strict=True):
@@ -131,12 +137,11 @@ def network_figure(pairs, regions, t, out):
     fig, ax = plt.subplots(figsize=(8.6, 8.6))
     for _, e in shown.sort_values("patients_hit").iterrows():
         (x0, y0, _), (x1, y1, _) = pos[e.node_a], pos[e.node_b]
-        frac = e.patients_hit / n_pat
         verts = np.array([[x0, y0], [0.3 * (x0 + x1), 0.3 * (y0 + y1)], [x1, y1]])
         tt = np.linspace(0, 1, 30)[:, None]
         curve = (1 - tt) ** 2 * verts[0] + 2 * (1 - tt) * tt * verts[1] + tt ** 2 * verts[2]
-        ax.plot(curve[:, 0], curve[:, 1], color=t["patient"], alpha=0.15 + 0.6 * (frac - 0.5) * 2,
-                linewidth=0.6 + 2.0 * (frac - 0.5) * 2, solid_capstyle="round", zorder=2)
+        ax.plot(curve[:, 0], curve[:, 1], color=t["patient"], alpha=0.7,
+                linewidth=1.2, solid_capstyle="round", zorder=2)
     cmap = LinearSegmentedColormap.from_list("seq", t["ramp"][1:])
     vmax = max(float(med.max()), 1.0)
     for n, (x, y, a) in pos.items():
@@ -161,9 +166,9 @@ def network_figure(pairs, regions, t, out):
     cb.set_label("Node colour: patient median node disconnection, %")
     cb.outline.set_visible(False)
     ax.set_title(
-        f"Brodmann-area pairs whose carrying tracts are ≥ 1 % lesioned in at least half of the "
-        f"{n_pat} patients\n({len(shown)} of {len(p)} pairs; line weight = share of patients, "
-        "50 % to 100 %). Atlas estimate, not measured connectivity.",
+        f"Brodmann-area pairs with weight-averaged disconnection ≥ 1 % in at least half of the "
+        f"{n_pat} patients\n({len(shown)} of {len(p)} pairs; most patients for any pair: "
+        f"{int(p.patients_hit.max())}). Atlas estimate, not measured connectivity.",
         loc="left", fontsize=9, color=t["ink"])
     fig.subplots_adjust(left=0.02, right=0.98, top=0.92, bottom=0.02)
     fig.savefig(out, metadata={"Date": None})

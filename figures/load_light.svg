@@ -134,8 +134,8 @@ L 363.168 31.537594
      </g>
     </g>
     <g id="text_7">
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(29.975488 238.914703) rotate(-90)">Lesion inside tracts, probability-weighted ml</text>
-     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(40.777949 217.338609) rotate(-90)">(sum over 64 tracts, symlog scale)</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(29.975488 245.852438) rotate(-90)">Summed tract overlap, probability-weighted ml</text>
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52514e" transform="translate(40.777949 279.712828) rotate(-90)">(sum over 64 overlapping tracts, not a lesion volume; symlog)</text>
     </g>
    </g>
    <g id="patch_3">
@@ -220,7 +220,7 @@ z
     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(247.038148 309.32907)">n = 8</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="74.88" y="18.192" transform="rotate(-0 74.88 18.192)">In-tract lesion load per participant</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="74.88" y="18.192" transform="rotate(-0 74.88 18.192)">Summed lesion-tract overlap per participant</text>
    </g>
    <g id="line2d_13">
     <path d="M 115.24032 86.356831 

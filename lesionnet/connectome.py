@@ -20,8 +20,8 @@ fallback, a tract -> region-pair mapping:
   optic radiation, fornix) carries the pair (cortical region i, the tract's subcortical
   target) with weight ``p_i``. The subcortical targets are a textbook anatomical label
   added here; they are not part of Yeh's matrix;
-- entries below 5 % population probability are set to zero, the cut-off below which the
-  paper leaves matrix entries blank.
+- entries below 5 % population probability are set to zero. The paper blanks such
+  entries in its figures for readability; using it as a floor here is a choice.
 
 For one participant with lesioned share ``f_t`` of tract ``t`` (``tract_fraction`` from
 the overlap step), the disconnection of a pair is the weight-averaged lesioned share of
@@ -114,6 +114,14 @@ def read_t2r(path: Path, block: int = 0) -> pd.DataFrame:
     start = headers[block] + 1
     stop = headers[block + 1] if block + 1 < len(headers) else len(sheet)
     abbrevs = list(sheet.iloc[headers[block], 1:])
+    # Left half then right half. Where the sheet labels the halves (a LEFT/RIGHT row above
+    # the header), check that the labels sit where the second run of tract names begins.
+    if headers[block] > 0:
+        labels = list(sheet.iloc[headers[block] - 1, 1:])
+        if "LEFT" in labels or "RIGHT" in labels:
+            half = len(abbrevs) // 2
+            if labels[0] != "LEFT" or labels[half] != "RIGHT":
+                raise ValueError(f"{path}: LEFT/RIGHT labels not at columns 1 and {half + 1}")
     rows = []
     seen: dict[str, int] = {}
     for col, abbrev in enumerate(abbrevs, start=1):

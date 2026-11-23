@@ -44,8 +44,9 @@ def main():
     demo = overlap[["participant_id", "group", "age", "sex"]].drop_duplicates()
     people, regions, pairs = [], [], []
     for parc, (path, block) in PARCELLATIONS.items():
-        weights = edge_weights(read_t2r(path, block))
-        mapped = set(weights["tract"])
+        t2r = read_t2r(path, block)
+        weights = edge_weights(t2r)
+        mapped = set(t2r["tract"])
         per_pair = []
         for sub, grp in overlap.groupby("participant_id", sort=True):
             frac = grp.set_index("tract")["tract_fraction"]

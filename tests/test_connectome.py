@@ -16,12 +16,14 @@ ABBREVS = list(TRACT_FILES)
 REGIONS = ["r1", "r2", "r3", "r4", 52]          # a bare number, as in the HCP-MMP sheet
 
 
-def write_sheet(path, entries, blocks=1):
+def write_sheet(path, entries, blocks=1, right_at=27):
     """Write a spreadsheet laid out like Yeh's: a LEFT/RIGHT row, a header row naming the
     26 tracts twice, then one row per region. ``entries`` maps (region, hemi, abbrev) -> p."""
     rows = []
     for b in range(blocks):
-        rows.append([None, "LEFT"] + [None] * 25 + ["RIGHT"] + [None] * 25)
+        labels = [None, "LEFT"] + [None] * 51
+        labels[right_at] = "RIGHT"
+        rows.append(labels)
         rows.append([None] + ABBREVS + ABBREVS)
         for region in REGIONS:
             row = [region]
@@ -57,6 +59,13 @@ def test_read_t2r_parses_hemispheres_numbers_and_blocks(tmp_path):
     assert second[("r1", "L", "AF")] == pytest.approx(0.8)
     with pytest.raises(ValueError):
         read_t2r(path, block=2)
+
+
+def test_misplaced_hemisphere_labels_are_refused(tmp_path):
+    path = tmp_path / "t2r.xlsx"
+    write_sheet(path, {}, right_at=20)
+    with pytest.raises(ValueError, match="LEFT/RIGHT"):
+        read_t2r(path)
 
 
 def test_association_tract_carries_all_pairs_of_its_regions():

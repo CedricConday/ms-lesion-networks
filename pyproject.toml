@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lesionnet"
+version = "0.1.0"
+description = "Lesion-to-tract overlap and an atlas-based tract-to-region network estimate for the public MS dataset OpenNeuro ds007908."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Cedric Conday"}]
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2",
+  "nibabel>=5",
+  "openpyxl>=3.1",
+]
+
+[project.optional-dependencies]
+pipeline = ["nilearn>=0.10", "matplotlib>=3.7"]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.urls]
+Homepage = "https://github.com/CedricConday/ms-lesion-networks"
+
+[tool.setuptools.packages.find]
+include = ["lesionnet*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

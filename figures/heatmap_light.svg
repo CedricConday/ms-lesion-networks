@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="590.4pt" height="828pt" viewBox="0 0 590.4 828" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 828 
+L 590.4 828 
+L 590.4 0 
+L 0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 177.12 761.76 
+L 513.648 761.76 
+L 513.648 33.12 
+L 177.12 33.12 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <g clip-path="url(#pd29d75965c)">
+    <image xlink:href="data:image/png;base64,
+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" id="imaged1312ae325" transform="scale(1 -1) translate(0 -728.64)" x="177.12" y="-33.12" width="336.24" height="728.64"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(184.817905 781.8025) rotate(-90)">0422</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(196.836762 781.8025) rotate(-90)">0048</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(208.855619 781.8025) rotate(-90)">0896</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(220.874477 781.8025) rotate(-90)">0571</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(232.893334 781.8025) rotate(-90)">1567</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(244.912191 781.8025) rotate(-90)">0858</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(256.931048 781.8025) rotate(-90)">0708</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(268.949905 781.8025) rotate(-90)">0623</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(280.968762 781.8025) rotate(-90)">1231</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(292.987619 781.8025) rotate(-90)">0620</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(305.006477 781.8025) rotate(-90)">0040</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(317.025334 781.8025) rotate(-90)">3801</text>
+     </g>
+    </g>
+    <g id="xtick_13">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(329.044191 781.8025) rotate(-90)">1985</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(341.063048 781.8025) rotate(-90)">2063</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_15"/>
+     <g id="text_15">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(353.081905 781.8025) rotate(-90)">3188</text>
+     </g>
+    </g>
+    <g id="xtick_16">
+     <g id="line2d_16"/>
+     <g id="text_16">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(365.100762 781.8025) rotate(-90)">2449</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_17"/>
+     <g id="text_17">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(377.119619 781.8025) rotate(-90)">0241</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_18"/>
+     <g id="text_18">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(389.138477 781.8025) rotate(-90)">5000</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_19"/>
+     <g id="text_19">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(401.157334 781.8025) rotate(-90)">0655</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_20"/>
+     <g id="text_20">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #2a78d6" transform="translate(413.176191 781.8025) rotate(-90)">0106</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_21"/>
+     <g id="text_21">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #eb6834" transform="translate(425.195048 781.8025) rotate(-90)">9000</text>
+     </g>
+    </g>
+    <g id="xtick_22">
+     <g id="line2d_22"/>
+     <g id="text_22">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #eb6834" transform="translate(437.213905 781.8025) rotate(-90)">9001</text>
+     </g>
+    </g>
+    <g id="xtick_23">
+     <g id="line2d_23"/>
+     <g id="text_23">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #eb6834" transform="translate(449.232762 781.8025) rotate(-90)">9004</text>
+     </g>
+    </g>
+    <g id="xtick_24">
+     <g id="line2d_24"/>
+     <g id="text_24">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #eb6834" transform="translate(461.251619 781.8025) rotate(-90)">9003</text>
+     </g>
+    </g>
+    <g id="xtick_25">
+     <g id="line2d_25"/>
+     <g id="text_25">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #eb6834" transform="translate(473.270477 781.8025) rotate(-90)">9005</text>
+     </g>
+    </g>
+    <g id="xtick_26">
+     <g id="line2d_26"/>
+     <g id="text_26">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #eb6834" transform="translate(485.289334 781.8025) rotate(-90)">9002</text>
+     </g>
+    </g>
+    <g id="xtick_27">
+     <g id="line2d_27"/>
+     <g id="text_27">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #eb6834" transform="translate(497.308191 781.8025) rotate(-90)">9006</text>
+     </g>
+    </g>
+    <g id="xtick_28">
+     <g id="line2d_28"/>
+     <g id="text_28">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #eb6834" transform="translate(509.327048 781.8025) rotate(-90)">9008</text>
+     </g>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="345.384" y="792.641094" transform="rotate(-0 345.384 792.641094)">Participant (patients left, sorted by total in-tract load; controls right)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_29"/>
+     <g id="text_30">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="41.281992" transform="rotate(-0 173.62 41.281992)">Cingulum Frontal Parietal L</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_30"/>
+     <g id="text_31">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="52.666992" transform="rotate(-0 173.62 52.666992)">Corticostriatal Tract Posterior R</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_31"/>
+     <g id="text_32">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="64.051992" transform="rotate(-0 173.62 64.051992)">Corticopontine Tract Parietal R</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_32"/>
+     <g id="text_33">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="75.436992" transform="rotate(-0 173.62 75.436992)">Arcuate Fasciculus R</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_33"/>
+     <g id="text_34">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="86.821992" transform="rotate(-0 173.62 86.821992)">Corticopontine Tract Occipital R</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_34"/>
+     <g id="text_35">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="98.206992" transform="rotate(-0 173.62 98.206992)">Thalamic Radiation Posterior R</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_35"/>
+     <g id="text_36">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="109.591992" transform="rotate(-0 173.62 109.591992)">Corticostriatal Tract Anterior L</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_36"/>
+     <g id="text_37">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="120.976992" transform="rotate(-0 173.62 120.976992)">Middle Longitudinal Fasciculus R</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_37"/>
+     <g id="text_38">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="132.361992" transform="rotate(-0 173.62 132.361992)">Thalamic Radiation Superior R</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_38"/>
+     <g id="text_39">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="143.746992" transform="rotate(-0 173.62 143.746992)">Corticostriatal Tract Superior R</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_39"/>
+     <g id="text_40">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="155.131992" transform="rotate(-0 173.62 155.131992)">Cingulum Frontal Parahippocampal L</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_40"/>
+     <g id="text_41">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="166.516992" transform="rotate(-0 173.62 166.516992)">Corticospinal Tract R</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_41"/>
+     <g id="text_42">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="177.901992" transform="rotate(-0 173.62 177.901992)">Superior Longitudinal Fasciculus1 L</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_42"/>
+     <g id="text_43">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="189.286992" transform="rotate(-0 173.62 189.286992)">Corticostriatal Tract Posterior L</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_43"/>
+     <g id="text_44">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="200.671992" transform="rotate(-0 173.62 200.671992)">Thalamic Radiation Superior L</text>
+     </g>
+    </g>
+    <g id="ytick_16">
+     <g id="line2d_44"/>
+     <g id="text_45">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="212.056992" transform="rotate(-0 173.62 212.056992)">Corpus Callosum Tapetum</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_45"/>
+     <g id="text_46">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="223.441992" transform="rotate(-0 173.62 223.441992)">Corpus Callosum Forceps Major</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_46"/>
+     <g id="text_47">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="234.826992" transform="rotate(-0 173.62 234.826992)">Corticostriatal Tract Superior L</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_47"/>
+     <g id="text_48">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="246.211992" transform="rotate(-0 173.62 246.211992)">Corticostriatal Tract Anterior R</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_48"/>
+     <g id="text_49">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="257.596992" transform="rotate(-0 173.62 257.596992)">Corpus Callosum Body</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_49"/>
+     <g id="text_50">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="268.981992" transform="rotate(-0 173.62 268.981992)">Thalamic Radiation Posterior L</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_50"/>
+     <g id="text_51">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="280.366992" transform="rotate(-0 173.62 280.366992)">Corticopontine Tract Frontal L</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_51"/>
+     <g id="text_52">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="291.751992" transform="rotate(-0 173.62 291.751992)">Thalamic Radiation Anterior L</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_52"/>
+     <g id="text_53">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="303.136992" transform="rotate(-0 173.62 303.136992)">Thalamic Radiation Anterior R</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_53"/>
+     <g id="text_54">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="314.521992" transform="rotate(-0 173.62 314.521992)">Superior Longitudinal Fasciculus2 R</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_54"/>
+     <g id="text_55">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="325.906992" transform="rotate(-0 173.62 325.906992)">Superior Longitudinal Fasciculus3 R</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_55"/>
+     <g id="text_56">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="337.291992" transform="rotate(-0 173.62 337.291992)">Corticospinal Tract L</text>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_56"/>
+     <g id="text_57">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="348.676992" transform="rotate(-0 173.62 348.676992)">Optic Radiation R</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_57"/>
+     <g id="text_58">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="360.061992" transform="rotate(-0 173.62 360.061992)">Cingulum Parahippocampal Parietal R</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_58"/>
+     <g id="text_59">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="371.446992" transform="rotate(-0 173.62 371.446992)">Corticopontine Tract Occipital L</text>
+     </g>
+    </g>
+    <g id="ytick_31">
+     <g id="line2d_59"/>
+     <g id="text_60">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="382.831992" transform="rotate(-0 173.62 382.831992)">Corticopontine Tract Frontal R</text>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_60"/>
+     <g id="text_61">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="394.216992" transform="rotate(-0 173.62 394.216992)">Reticulospinal Tract R</text>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_61"/>
+     <g id="text_62">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="405.601992" transform="rotate(-0 173.62 405.601992)">Inferior Fronto Occipital Fasciculus R</text>
+     </g>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_62"/>
+     <g id="text_63">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="416.986992" transform="rotate(-0 173.62 416.986992)">Optic Radiation L</text>
+     </g>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_63"/>
+     <g id="text_64">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="428.371992" transform="rotate(-0 173.62 428.371992)">Cingulum Frontal Parahippocampal R</text>
+     </g>
+    </g>
+    <g id="ytick_36">
+     <g id="line2d_64"/>
+     <g id="text_65">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="439.756992" transform="rotate(-0 173.62 439.756992)">Cingulum Parahippocampal Parietal L</text>
+     </g>
+    </g>
+    <g id="ytick_37">
+     <g id="line2d_65"/>
+     <g id="text_66">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="451.141992" transform="rotate(-0 173.62 451.141992)">Reticulospinal Tract L</text>
+     </g>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_66"/>
+     <g id="text_67">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="462.526992" transform="rotate(-0 173.62 462.526992)">Superior Longitudinal Fasciculus1 R</text>
+     </g>
+    </g>
+    <g id="ytick_39">
+     <g id="line2d_67"/>
+     <g id="text_68">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="473.911992" transform="rotate(-0 173.62 473.911992)">Inferior Longitudinal Fasciculus L</text>
+     </g>
+    </g>
+    <g id="ytick_40">
+     <g id="line2d_68"/>
+     <g id="text_69">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="485.296992" transform="rotate(-0 173.62 485.296992)">Inferior Longitudinal Fasciculus R</text>
+     </g>
+    </g>
+    <g id="ytick_41">
+     <g id="line2d_69"/>
+     <g id="text_70">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="496.681992" transform="rotate(-0 173.62 496.681992)">Inferior Fronto Occipital Fasciculus L</text>
+     </g>
+    </g>
+    <g id="ytick_42">
+     <g id="line2d_70"/>
+     <g id="text_71">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="508.066992" transform="rotate(-0 173.62 508.066992)">Cingulum Rarolfactory L</text>
+     </g>
+    </g>
+    <g id="ytick_43">
+     <g id="line2d_71"/>
+     <g id="text_72">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="519.451992" transform="rotate(-0 173.62 519.451992)">Frontal Aslant Tract R</text>
+     </g>
+    </g>
+    <g id="ytick_44">
+     <g id="line2d_72"/>
+     <g id="text_73">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="530.836992" transform="rotate(-0 173.62 530.836992)">Arcuate Fasciculus L</text>
+     </g>
+    </g>
+    <g id="ytick_45">
+     <g id="line2d_73"/>
+     <g id="text_74">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="542.221992" transform="rotate(-0 173.62 542.221992)">Frontal Aslant Tract L</text>
+     </g>
+    </g>
+    <g id="ytick_46">
+     <g id="line2d_74"/>
+     <g id="text_75">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="553.606992" transform="rotate(-0 173.62 553.606992)">Cingulum Frontal Parietal R</text>
+     </g>
+    </g>
+    <g id="ytick_47">
+     <g id="line2d_75"/>
+     <g id="text_76">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="564.991992" transform="rotate(-0 173.62 564.991992)">Corticopontine Tract Parietal L</text>
+     </g>
+    </g>
+    <g id="ytick_48">
+     <g id="line2d_76"/>
+     <g id="text_77">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="576.376992" transform="rotate(-0 173.62 576.376992)">Parietal Aslant Tract R</text>
+     </g>
+    </g>
+    <g id="ytick_49">
+     <g id="line2d_77"/>
+     <g id="text_78">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="587.761992" transform="rotate(-0 173.62 587.761992)">Corticobulbar Tract R</text>
+     </g>
+    </g>
+    <g id="ytick_50">
+     <g id="line2d_78"/>
+     <g id="text_79">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="599.146992" transform="rotate(-0 173.62 599.146992)">Corticobulbar Tract L</text>
+     </g>
+    </g>
+    <g id="ytick_51">
+     <g id="line2d_79"/>
+     <g id="text_80">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="610.531992" transform="rotate(-0 173.62 610.531992)">Vertical Occipital Fasciculus R</text>
+     </g>
+    </g>
+    <g id="ytick_52">
+     <g id="line2d_80"/>
+     <g id="text_81">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="621.916992" transform="rotate(-0 173.62 621.916992)">Superior Longitudinal Fasciculus2 L</text>
+     </g>
+    </g>
+    <g id="ytick_53">
+     <g id="line2d_81"/>
+     <g id="text_82">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="633.301992" transform="rotate(-0 173.62 633.301992)">Corpus Callosum Forceps Minor</text>
+     </g>
+    </g>
+    <g id="ytick_54">
+     <g id="line2d_82"/>
+     <g id="text_83">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="644.686992" transform="rotate(-0 173.62 644.686992)">Middle Longitudinal Fasciculus L</text>
+     </g>
+    </g>
+    <g id="ytick_55">
+     <g id="line2d_83"/>
+     <g id="text_84">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="656.071992" transform="rotate(-0 173.62 656.071992)">Cingulum Rarolfactory R</text>
+     </g>
+    </g>
+    <g id="ytick_56">
+     <g id="line2d_84"/>
+     <g id="text_85">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="667.456992" transform="rotate(-0 173.62 667.456992)">Superior Longitudinal Fasciculus3 L</text>
+     </g>
+    </g>
+    <g id="ytick_57">
+     <g id="line2d_85"/>
+     <g id="text_86">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="678.841992" transform="rotate(-0 173.62 678.841992)">Uncinate Fasciculus L</text>
+     </g>
+    </g>
+    <g id="ytick_58">
+     <g id="line2d_86"/>
+     <g id="text_87">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="690.226992" transform="rotate(-0 173.62 690.226992)">Cingulum Parahippocampal R</text>
+     </g>
+    </g>
+    <g id="ytick_59">
+     <g id="line2d_87"/>
+     <g id="text_88">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="701.611992" transform="rotate(-0 173.62 701.611992)">Vertical Occipital Fasciculus L</text>
+     </g>
+    </g>
+    <g id="ytick_60">
+     <g id="line2d_88"/>
+     <g id="text_89">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="712.996992" transform="rotate(-0 173.62 712.996992)">Parietal Aslant Tract L</text>
+     </g>
+    </g>
+    <g id="ytick_61">
+     <g id="line2d_89"/>
+     <g id="text_90">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="724.381992" transform="rotate(-0 173.62 724.381992)">Uncinate Fasciculus R</text>
+     </g>
+    </g>
+    <g id="ytick_62">
+     <g id="line2d_90"/>
+     <g id="text_91">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="735.766992" transform="rotate(-0 173.62 735.766992)">Cingulum Parahippocampal L</text>
+     </g>
+    </g>
+    <g id="ytick_63">
+     <g id="line2d_91"/>
+     <g id="text_92">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="747.151992" transform="rotate(-0 173.62 747.151992)">Fornix R</text>
+     </g>
+    </g>
+    <g id="ytick_64">
+     <g id="line2d_92"/>
+     <g id="text_93">
+      <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: end; fill: #52514e" x="173.62" y="758.536992" transform="rotate(-0 173.62 758.536992)">Fornix L</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_93">
+    <path d="M 417.497143 761.76 
+L 417.497143 33.12 
+" clip-path="url(#pd29d75965c)" style="fill: none; stroke: #0b0b0b; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #0b0b0b" x="177.12" y="27.12" transform="rotate(-0 177.12 27.12)">Lesioned share of each HCP-1065 tract, per participant</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 520.7328 503.712 
+L 531.36 503.712 
+L 531.36 291.168 
+L 520.7328 291.168 
+z
+" style="fill: #fcfcfb"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAEoCAYAAACHCKtwAAABVElEQVR4nO2aUY7EMAhDmVHvf+EdtXuG8KQ+WZB/ywEbEtJ+fr+/p5rr2wVWVV1Pm7fqAtiZzAXQUGcEHigVYV6pYpiRVNt6Y5hXqjeZvWxv641hXqleZSZ3z229QcxaSd5s2330dfeJxWxfN4k5VmcCBk3M3LYoleQw1SQAvCV5DNZKso8VzyrxNuSZhFVVn3hmSXpNX7QnuBlsSb7KLJYkAYsH3TyHzSzJPla050yp5s1VsW9DqTNGH7xvBknMA0/JPja1k8RKtafk0Yo9JfvEU6UK9TbYdrGYCXP1DUpbb2TCxG1rL3H19E0yU2fyOdX7CAKzDUwyUOfc7hmpc2hJrs6nzKvzq8zkZkCkIjGLUqXqDMYEL+bYkiTZRswamP6zHpkwryS1bYsDSmbCvJhTu6dnksyYt/UeM1sxq887iQkb2XoHJix1xtgx4RCsxYx0/gciAwkVZ9ZGmAAAAABJRU5ErkJggg==" id="image07d77f6fce" transform="scale(1 -1) translate(0 -213.12)" x="520.56" y="-290.88" width="10.8" height="213.12"/>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_65">
+     <g id="line2d_94">
+      <defs>
+       <path id="m65cb6fcb06" d="M 0 0 
+L 3.5 0 
+" style="stroke: #52514e; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="503.712" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_95">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="507.130945" transform="rotate(-0 538.36 507.130945)">0</text>
+     </g>
+    </g>
+    <g id="ytick_66">
+     <g id="line2d_95">
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="414.041532" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_96">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="417.460477" transform="rotate(-0 538.36 417.460477)">2</text>
+     </g>
+    </g>
+    <g id="ytick_67">
+     <g id="line2d_96">
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="385.391108" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_97">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="388.810054" transform="rotate(-0 538.36 388.810054)">4</text>
+     </g>
+    </g>
+    <g id="ytick_68">
+     <g id="line2d_97">
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="364.557281" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_98">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="367.976227" transform="rotate(-0 538.36 367.976227)">6</text>
+     </g>
+    </g>
+    <g id="ytick_69">
+     <g id="line2d_98">
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="347.586647" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_99">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="351.005593" transform="rotate(-0 538.36 351.005593)">8</text>
+     </g>
+    </g>
+    <g id="ytick_70">
+     <g id="line2d_99">
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="333.010461" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_100">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="336.429406" transform="rotate(-0 538.36 336.429406)">10</text>
+     </g>
+    </g>
+    <g id="ytick_71">
+     <g id="line2d_100">
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="320.096248" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_101">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="323.515193" transform="rotate(-0 538.36 323.515193)">12</text>
+     </g>
+    </g>
+    <g id="ytick_72">
+     <g id="line2d_101">
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="308.418112" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_102">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="311.837057" transform="rotate(-0 538.36 311.837057)">14</text>
+     </g>
+    </g>
+    <g id="ytick_73">
+     <g id="line2d_102">
+      <g>
+       <use xlink:href="#m65cb6fcb06" x="531.36" y="297.703362" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_103">
+      <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52514e" x="538.36" y="301.122307" transform="rotate(-0 538.36 301.122307)">16</text>
+     </g>
+    </g>
+    <g id="text_104">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #52514e" x="560.651094" y="397.44" transform="rotate(-90 560.651094 397.44)">Lesioned share of the tract, % (power scale)</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd29d75965c">
+   <rect x="177.12" y="33.12" width="336.528" height="728.64"/>
+  </clipPath>
+ </defs>
+</svg>
